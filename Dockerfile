@@ -5,7 +5,7 @@ MAINTAINER Markus Kohler <markus.kohler@gmail.com>
 ENV http_proxy http://proxy.wdf.sap.corp:8080
 ENV https_proxy http://proxy.wdf.sap.corp:8080
 
-# Install Darktable
+# Install evolution and dependencies
 RUN mkdir -p /usr/share/icons/hicolor && \
 	apt-get update && apt-get install -y \
 	ca-certificates \
